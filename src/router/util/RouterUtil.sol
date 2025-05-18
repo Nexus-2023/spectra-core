@@ -3,10 +3,10 @@
 pragma solidity 0.8.20;
 
 import {Math} from "openzeppelin-math/Math.sol";
-import {IERC20Metadata} from "openzeppelin-contracts/token/ERC20/extensions/IERC20Metadata.sol";
-import {IERC4626} from "openzeppelin-contracts/interfaces/IERC4626.sol";
-import {IERC3156FlashLender} from "openzeppelin-contracts/interfaces/IERC3156FlashLender.sol";
-import {SafeCast} from "openzeppelin-contracts/utils/math/SafeCast.sol";
+import {IERC20Metadata} from "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
+import {IERC4626} from "@openzeppelin/contracts/interfaces/IERC4626.sol";
+import {IERC3156FlashLender} from "@openzeppelin/contracts/interfaces/IERC3156FlashLender.sol";
+import {SafeCast} from "@openzeppelin/contracts/utils/math/SafeCast.sol";
 import {CurvePoolUtil} from "../../libraries/CurvePoolUtil.sol";
 import {ICurvePool} from "../../interfaces/ICurvePool.sol";
 import {IStableSwapNG} from "../../interfaces/IStableSwapNG.sol";

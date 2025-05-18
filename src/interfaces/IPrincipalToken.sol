@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.20;
 
-import "openzeppelin-contracts/interfaces/IERC20.sol";
-import "openzeppelin-contracts/interfaces/IERC20Metadata.sol";
-import "openzeppelin-contracts/interfaces/IERC3156FlashLender.sol";
+import "@openzeppelin/contracts/interfaces/IERC20.sol";
+import "@openzeppelin/contracts/interfaces/IERC20Metadata.sol";
+import "@openzeppelin/contracts/interfaces/IERC3156FlashLender.sol";
 
 interface IPrincipalToken is IERC20, IERC20Metadata, IERC3156FlashLender {
     /* ERRORS

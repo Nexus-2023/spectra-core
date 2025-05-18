@@ -2,15 +2,15 @@
 
 pragma solidity 0.8.20;
 
-import "openzeppelin-contracts/token/ERC20/utils/SafeERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "openzeppelin-contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol";
 import "openzeppelin-contracts-upgradeable/utils/PausableUpgradeable.sol";
 import "openzeppelin-contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
 import "openzeppelin-math/Math.sol";
 import "openzeppelin-erc20-extensions/ERC20PermitUpgradeable.sol";
-import "openzeppelin-contracts/proxy/beacon/BeaconProxy.sol";
-import "openzeppelin-contracts/interfaces/IERC3156FlashBorrower.sol";
-import "openzeppelin-contracts/interfaces/IERC4626.sol";
+import "@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol";
+import "@openzeppelin/contracts/interfaces/IERC3156FlashBorrower.sol";
+import "@openzeppelin/contracts/interfaces/IERC4626.sol";
 
 import "../libraries/PrincipalTokenUtil.sol";
 import "../libraries/NamingUtil.sol";

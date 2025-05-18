@@ -3,10 +3,10 @@
 pragma solidity 0.8.20;
 
 import "openzeppelin-math/Math.sol";
-import "openzeppelin-contracts/access/manager/IAccessManager.sol";
+import "@openzeppelin/contracts/access/manager/IAccessManager.sol";
 import "openzeppelin-contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol";
-import "openzeppelin-contracts/proxy/beacon/BeaconProxy.sol";
-import "openzeppelin-contracts/token/ERC20/utils/SafeERC20.sol";
+import "@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol";
+import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "../interfaces/IFactory.sol";
 import "../interfaces/ICurveNGPool.sol";
 import "../interfaces/ICurveNGFactory.sol";

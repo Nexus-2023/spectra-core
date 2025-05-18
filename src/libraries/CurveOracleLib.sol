@@ -3,8 +3,8 @@
 pragma solidity 0.8.20;
 
 import {Math} from "openzeppelin-math/Math.sol";
-import {IERC20} from "openzeppelin-contracts/interfaces/IERC20.sol";
-import {IERC4626} from "openzeppelin-contracts/interfaces/IERC4626.sol";
+import {IERC20} from "@openzeppelin/contracts/interfaces/IERC20.sol";
+import {IERC4626} from "@openzeppelin/contracts/interfaces/IERC4626.sol";
 import {ICurveNGPool} from "../interfaces/ICurveNGPool.sol";
 import {IStableSwapNG} from "../interfaces/IStableSwapNG.sol";
 import {IPrincipalToken} from "../interfaces/IPrincipalToken.sol";

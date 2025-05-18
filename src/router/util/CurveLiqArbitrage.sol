@@ -1,7 +1,7 @@
 pragma solidity 0.8.20;
 
 import {Math} from "openzeppelin-math/Math.sol";
-import {IERC20Metadata} from "openzeppelin-contracts/token/ERC20/extensions/IERC20Metadata.sol";
+import {IERC20Metadata} from "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
 import {ICurvePool} from "../../interfaces/ICurvePool.sol";
 import {ICurveNGPool} from "../../interfaces/ICurveNGPool.sol";
 import {Constants} from "../Constants.sol";

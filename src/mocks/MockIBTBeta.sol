@@ -3,8 +3,8 @@
 pragma solidity 0.8.20;
 
 import "openzeppelin-erc20/ERC20Upgradeable.sol";
-import "openzeppelin-contracts/token/ERC20/utils/SafeERC20.sol";
-import "openzeppelin-contracts/interfaces/IERC4626.sol";
+import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import "@openzeppelin/contracts/interfaces/IERC4626.sol";
 import "openzeppelin-contracts-upgradeable/access/Ownable2StepUpgradeable.sol";
 import "./base/SpectraERC4626Upgradeable.sol";
 import "src/interfaces/IMockToken.sol";

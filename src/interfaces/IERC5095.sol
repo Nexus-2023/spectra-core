@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.20;
 
-import "openzeppelin-contracts/interfaces/IERC20Metadata.sol";
-import "openzeppelin-contracts/interfaces/IERC3156FlashLender.sol";
+import "@openzeppelin/contracts/interfaces/IERC20Metadata.sol";
+import "@openzeppelin/contracts/interfaces/IERC3156FlashLender.sol";
 
 interface IERC5095 is IERC20Metadata {
     event Redeem(address indexed from, address indexed to, uint256 amount);

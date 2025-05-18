@@ -5,7 +5,7 @@ pragma solidity 0.8.20;
 import "../interfaces/IYieldToken.sol";
 import "../interfaces/IPrincipalToken.sol";
 import "../interfaces/IRegistry.sol";
-import "openzeppelin-contracts/interfaces/IERC4626.sol";
+import "@openzeppelin/contracts/interfaces/IERC4626.sol";
 import "openzeppelin-math/Math.sol";
 import "../libraries/RayMath.sol";
 

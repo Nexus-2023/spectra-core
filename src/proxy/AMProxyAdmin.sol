@@ -5,7 +5,7 @@
 pragma solidity 0.8.20;
 
 import {IAMTransparentUpgradeableProxy} from "./AMTransparentUpgradeableProxy.sol";
-import "openzeppelin-contracts/access/manager/AccessManaged.sol";
+import "@openzeppelin/contracts/access/manager/AccessManaged.sol";
 
 /**
  * @dev This is an auxiliary contract meant to be assigned as the admin of a {TransparentUpgradeableProxy}. For an

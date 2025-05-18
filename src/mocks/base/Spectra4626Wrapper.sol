@@ -6,8 +6,8 @@ import {Math} from "@openzeppelin/contracts/utils/math/Math.sol";
 import {IERC20Metadata, IERC20} from "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
 import {IRewardsProxy} from "../../interfaces/IRewardsProxy.sol";
 import {ISpectra4626Wrapper} from "../../interfaces/ISpectra4626Wrapper.sol";
-import {AccessManagedUpgradeable} from "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol";
-import {ERC4626Upgradeable} from "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC4626Upgradeable.sol";
+import {AccessManagedUpgradeable} from "@openzeppelin/contracts/-upgradeable/access/manager/AccessManagedUpgradeable.sol";
+import {ERC4626Upgradeable} from "@openzeppelin/contracts/-upgradeable/token/ERC20/extensions/ERC4626Upgradeable.sol";
 
 /// @dev This contract implements a wrapper to facilitate compliance of an interest-bearing vault with the ERC-4626 standard,
 /// making it compatible for deploying a Spectra Principal Token.

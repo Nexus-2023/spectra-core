@@ -4,8 +4,8 @@
 
 pragma solidity 0.8.20;
 
-import {IBeacon} from "openzeppelin-contracts/proxy/beacon/IBeacon.sol";
-import "openzeppelin-contracts/access/manager/AccessManaged.sol";
+import {IBeacon} from "@openzeppelin/contracts/proxy/beacon/IBeacon.sol";
+import "@openzeppelin/contracts/access/manager/AccessManaged.sol";
 
 /**
  * @title AMBeacon

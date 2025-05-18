@@ -4,8 +4,8 @@ pragma solidity 0.8.20;
 
 import {IRewardsProxy} from "../interfaces/IRewardsProxy.sol";
 import {MockERC20} from "./MockERC20.sol";
-import {IERC20} from "openzeppelin-contracts/interfaces/IERC20.sol";
-import "openzeppelin-contracts/access/Ownable.sol";
+import {IERC20} from "@openzeppelin/contracts/interfaces/IERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 import "forge-std/console.sol";
 
 /**
