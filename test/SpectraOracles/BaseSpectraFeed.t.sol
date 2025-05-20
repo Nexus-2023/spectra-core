@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: BUSL-1.1
 
-pragma solidity 0.8.20;
+pragma solidity 0.8.24;
 
 import "script/00_deployAccessManager.s.sol";
 import "script/01_deployRegistry.s.sol";
