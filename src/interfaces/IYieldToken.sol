@@ -2,7 +2,7 @@
 
 import "@openzeppelin/contracts/interfaces/IERC20.sol";
 
-pragma solidity ^0.8.24;
+pragma solidity ^0.8.28;
 
 interface IYieldToken is IERC20 {
     error EnforcedPause();

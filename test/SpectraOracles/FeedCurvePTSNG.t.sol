@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: BUSL-1.1
 
-pragma solidity 0.8.24;
+pragma solidity ^0.8.28;
 
 import "./BaseSpectraFeedSNG.t.sol";
 import {CurveOracleLib} from "../../src/libraries/CurveOracleLib.sol";

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0
 // Modified from https://github.com/a16z/erc4626-tests
 
-pragma solidity 0.8.24;
+pragma solidity ^0.8.28;
 
 import "forge-std/Test.sol";
 import "openzeppelin-contracts/interfaces/IERC20Metadata.sol";

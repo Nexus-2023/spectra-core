@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: BUSL-1.1
 
-pragma solidity 0.8.24;
+pragma solidity ^0.8.28;
 
 import "../interfaces/IYieldToken.sol";
 import "../interfaces/IPrincipalToken.sol";

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
 
-pragma solidity 0.8.24;
+pragma solidity ^0.8.28;
 
 import {AggregatorV3Interface} from "src/interfaces/AggregatorV3Interface.sol";
 import {BaseFeedCurveLPTIBTSNG} from "src/spectra-oracles/chainlinkFeeds/stableswap-ng/BaseFeedCurveLPTIBT.sol";

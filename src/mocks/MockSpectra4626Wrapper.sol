@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Unlicensed
 
-pragma solidity 0.8.24;
+pragma solidity ^0.8.28;
 
 import "./base/Spectra4626Wrapper.sol";
 import "@openzeppelin/contracts/interfaces/IERC4626.sol";
